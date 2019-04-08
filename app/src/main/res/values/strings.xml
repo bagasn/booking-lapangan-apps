@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">lapangan</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="profile_lapangan">Lapangan 2 atau diberi nama dengan lapangan Leo ini
+        beralaskan rumput viny1 (Matras) yang menggunakan bahan lapisan karet sebagai material
+        utamanya, Lapangan berjenis viny1 sangat bagus untuk aliran bola dan juga pemain.
+        Tingkat kerataannya cukup tinggi serta tekstur lapangan yang terbilang cukup empuk,
+        dengan ukuran lapangan standar internasional
+        dengan ukuran : \n1. Panjang : 42 m. \n2. Lebar : 25 m. \nYang sama dirancang untuk kenyaman
+        bermain para pemain futsal. \nLapangan Leo ini disewakan dengan harga :
+    \n1. Siang : Rp.80.000/jam.\n2. Malam : Rp.120.000/jam.</string>
+    <string name="lapangan1">Lapangan 1 atau diberi nama dengan lapangan Scorpion ini
+        beralaskan rumput sintetis yang membuat bola menjadi lebih mudah dikontrol dan juga
+        aman saat ada pemain yang terjatuh, dengan ukuran lapangan standar internasional
+        yang berukuran : \n1. Panjang : 42 m. \n2. Lebar : 25 m. \nYang sama dirancang untuk kenyaman
+        bermain para pemain saat bermain futsal. \nLapangan Scorpion ini disewakan dengan harga :
+    \n1. Siang : Rp.100.000/jam.\n2. Malam : Rp.150.000/jam.</string>
+    <string name="profile">\tBintang Futsal adalah sebuah usaha yang bergerak dalam jasa penyewaan
+        lapangan futsal yang didirikan pada tahun 2012 yang bertempat di Jl.Irigasi Sipon RT 011
+        RW 03 Kecamatan Cipondoh Kelurahan Gondrong Kota Tangerang. \n\tDimana pemilik bintang futsal
+        adalah bapak Irfan Maulana, dalam berdirinya lapangan futsal ini tak lepas dari
+        meningkatnya perkembangan olahraga futsal yang makin diminati oleh para masyarakat
+        yang ada saat ini, melihat peluang yang ada maka pak Irfan pun membuka sebuah usaha
+        penyewaan lapangan fusal yang diberi nama Bintang Futsal.\n\tPemberian nama itu pun
+        menurut pemilik agar para pemain yang bermain dilapangan futsal miliknya benar-benar
+        bisa menjadi pemain bintang yang bisa membanggakan bagi Negara di ajang Nasional maupun
+        Internasional.\n\n1.\tVisi dan Misi\n\n
+a.	Visi \n
+\tMenjadikan perusahaan terbaik dalam bidang jasa penyewaan lapangan futsal dengan kualitas
+        pelayanan terbaik yang dapat memberikan kontribusi nyata bagi masyarakat.\n
+b.	Misi\n
+•	Menjadikan perusahaan penyediaan layanan penyewaan lapangan futsal dengan kualitas layanan prima.
+\n•	Memberikan kenyamanan dan keamanan dalam bermain.
+\n•	Membantu menyalurkan bakat-bakat para pemain agar menjadi pemain kelas dunia.\n\n
+        2.  Fasilitas Lapangan\n
+\tFasilitas yang terdapat di Bintang Futsal terdiri dari 2 lapangan, komputer dan telepon di meja kerja,  laci kecil, lemari besar untuk menyimpan data-data pelanggan, sebuah lemari kaca untuk menyimapan pakaian atau kaos team dan juga kantin kecil bagi setiap konsumen yang ingin makan atau menunggu lapangan tersedia.
+
+</string>
+</resources>

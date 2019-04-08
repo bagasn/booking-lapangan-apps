@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_booking"
+            android:title="Booking" />
+        <item
+            android:id="@+id/nav_jadwal"
+            android:title="Jadwal" />
+        <item
+            android:id="@+id/nav_lapangan"
+            android:title="Lapangan" />
+    </group>
+
+</menu>
