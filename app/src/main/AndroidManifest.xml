@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.fauzifahrizal.lapangan">
+    package="com.example.algamar.lapangan">
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,43 +12,44 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".LoginActivity"
+            android:name="com.example.algamar.lapangan.LoginActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".HomeActivity"
-            android:label="Bintang Futsal"
+            android:name="com.example.algamar.lapangan.HomeActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".BookingActivity"
+            android:name="com.example.algamar.lapangan.BookingActivity"
             android:label="Booking"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".JadwalActivity"
+            android:name="com.example.algamar.lapangan.JadwalActivity"
             android:label="Jadwal"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".RegistrasiActivity"
+            android:name="com.example.algamar.lapangan.RegistrasiActivity"
             android:label="Registrasi User"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".LapanganActivity"
-            android:label="Bintang Futsal"
+            android:name="com.example.algamar.lapangan.LapanganActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".ListBookingActivity"
+            android:name="com.example.algamar.lapangan.ListBookingActivity"
             android:label="List Booking"
             android:theme="@style/AppTheme" />
-        <activity android:name=".ProfileActivity"
+        <activity
+            android:name="com.example.algamar.lapangan.ProfileActivity"
             android:label="Profile"
             android:theme="@style/AppTheme">
 

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.fauzifahrizal.lapangan.LapanganActivity">
+    tools:context="com.example.algamar.lapangan.LapanganActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -14,39 +12,52 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="12dp">
 
-            <ImageView
-                android:id="@+id/lapangan1"
-                android:layout_marginBottom="10dp"
-                android:scaleType="fitXY"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:src="@drawable/lap"/>
-
-            <TextView
-                android:id="@+id/txt_konten"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="18dp"
-                android:text="@string/lapangan1"/>
+                android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/lapangan2"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="10dp"
-                android:scaleType="fitXY"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:src="@drawable/lapangan1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Lapangan 1 (Delta)"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title" />
 
-            <TextView
-                android:id="@+id/txt_konten2"
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_lapangan" />
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="18dp"
-                android:text="@string/profile_lapangan"/>
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Lapangan 2 (Alpha)"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_lapangan_2" />
+
+            </LinearLayout>
+
         </LinearLayout>
+
     </ScrollView>
 
 </LinearLayout>
