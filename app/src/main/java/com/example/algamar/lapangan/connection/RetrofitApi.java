@@ -9,8 +9,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitApi {
 
-//    private static final String BASE_URL = "http://192.168.0.2:8080/badminton/api/";
-    private static final String BASE_URL = "https://siakad-skripsi.000webhostapp.com/vertova/api/";
+    private static final String BASE_URL = "http://192.168.0.2:8080/badminton/api/";
+//    private static final String BASE_URL = "https://siakad-skripsi.000webhostapp.com/vertova/api/";
 
     private static Retrofit getRetrofit() {
 
